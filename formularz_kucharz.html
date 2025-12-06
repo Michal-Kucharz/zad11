@@ -1,6 +1,5 @@
 <!DOCTYPE html> 
 <html lang="pl-PL"> 
-<html> 
      <head> 
              <meta charset="utf-8"> 
              <title>kucharz - formularz</title> 
@@ -16,29 +15,31 @@
 	<input name="email" type="email" size="22"> <br><br>
 	<font face=Arial size=3><b>Data zakupu: </b><br></font>
 	<input name="data" type="date" size="22"> <br><br>
+	<font face=Arial size=3><b>Czas zakupu: </b><br></font>
+	<input name="czas" type="time" size="22"><br><br>
 	<font face=Arial size=3><b>Nazwa towaru (maksymalnie 30 znaków): </b><br></font>
 	<input name="nazwa_towaru" size="22"> <br><br>
 	<font face=Arial size=3><b>Hasło podane na paragonie (lub fakturze): </b><br></font>
 	<input name="haslo" type=password size="22"> <br><br>
 	<font face=Arial size=3><b>Podaj swoje miasto: </b><br></font>
-	<font face=Arial size=3><input type="radio" name="miasto" value="Gdansk"> Gdańsk <input type="radio" name="miasto" value="Warszawa"> Warszawa <input type="radio" name="miasto" value="Krakow"> Kraków <input type="radio" name="miasto" value="Poznan"> Poznań <input type="radio" name="miasto" value="inne"> Inne </input><br>
+	<font face=Arial size=3><input type="radio" name="miasto" value="Gdansk"> Gdańsk <input type="radio" name="miasto" value="Warszawa"> Warszawa <input type="radio" name="miasto" value="Krakow"> Kraków <input type="radio" name="miasto" value="Poznan"> Poznań <input type="radio" name="miasto" value="inne"> Inne<br>
 	</font><font face=Arial size=3><br><b>Podaj metodę dostawy produktu: </b></font><br>
-	<font face=Arial size=3><input type="radio" name="dostawa" value="dostawa_dom"> Dostawa do domu<br> 
+	<font face=Arial size=3><input type="radio" name="dostawa" value="dostawa_dom"> Dostawa do domu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> 
 	<input type="radio" name="dostawa" value="dostawa_paczkomat"> Dostawa do Paczkomatu<br>
- 	<input type="radio" name="dostawa" value="odbior"> Odbiór w sklepie<br></font></input><br>
+ 	<input type="radio" name="dostawa" value="odbior"> Odbiór w sklepie&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></font><br>
 	<font face=Arial size=3><b>Czy zwracany towar jest uszkodzony: </b><br></font>
-	<font face=Arial size=3><input type="radio" name="uszkodzenie" value="tak" checked> Tak <font face=Arial size=3><input type="radio" name="uszkodzenie" value="nie"> Nie <font face=Arial size=3><input type="radio" name="uszkodzenie" value="nie_wiem"> Nie wiem <input type="radio" name="uszkodzenie" value="Ciezko_okreslic"> Ciężko określić </input></font><br>
+	<font face=Arial size=3><input type="radio" name="uszkodzenie" value="tak" checked> Tak <input type="radio" name="uszkodzenie" value="nie"> Nie <input type="radio" name="uszkodzenie" value="nie_wiem"> Nie wiem <input type="radio" name="uszkodzenie" value="Ciezko_okreslic"> Ciężko określić</font><br>
 	<br><font face=Arial size=3><b>Podaj powód zwrotu: </b><br></font>
-	<font face=Arial size=3><input type="checkbox" name="powod_zwrotu" value="nie_dziala"> Produkt nie działa <br> 
-	<input type="checkbox" name="powod_zwrotu" value="usterka"> Usterka mechaniczna <br> 
-	<input type="checkbox" name="powod_zwrotu" value="nie_spelnia_oczekiwan"> Produkt nie spełnia oczekiwań <br> 
-	<input type="checkbox" name="powod_zwrotu" value="brak"> Brak powodu zwrotu <br> </input><br>
+	<font face=Arial size=3><input type="checkbox" name="powod_zwrotu" value="nie_dziala"> Produkt nie działa&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> 
+	<input type="checkbox" name="powod_zwrotu" value="usterka"> Usterka mechaniczna&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="checkbox" name="powod_zwrotu" value="nie_spelnia_oczekiwan">Produkt nie spełnia oczekiwań <br> 
+	<input type="checkbox" name="powod_zwrotu" value="brak"> Brak powodu zwrotu &nbsp;&nbsp;&nbsp;&nbsp;<br> <br></font>
 	<font face=Arial size=3><b>Preferowane formy zwrotu: </b><br></font>
-	<input type="checkbox" name="preferowana_forma_zwrotu" value="kurier" checked> Kurier <input type="checkbox" name="preferowana_forma_zwrotu" value="paczkomat"> Paczkomat <input type="checkbox" name="preferowana_forma_zwrotu" value="poczta"> Punkt pocztowy <input type="checkbox" name="preferowana_forma_zwrotu" value="sklep"> Zwrot w sklepie <input type="checkbox" name="preferowana_forma_zwrotu" value="inne" > Inne </input><br><br>
+	<input type="checkbox" name="preferowana_forma_zwrotu" value="kurier" checked> Kurier <input type="checkbox" name="preferowana_forma_zwrotu" value="paczkomat"> Paczkomat <input type="checkbox" name="preferowana_forma_zwrotu" value="poczta"> Punkt pocztowy <input type="checkbox" name="preferowana_forma_zwrotu" value="sklep"> Zwrot w sklepie <input type="checkbox" name="preferowana_forma_zwrotu" value="inne" > Inne<br><br>
 	<font face=Arial size=3><b>Czy posiadasz fakturę/paragon kub inny dowód płatności: </b><br></font>
-	<input type="checkbox" name="paragon" value="faktura"> Faktura <br>
-	<input type="checkbox" name="paragon" value="paragon"> Paragon <br>
-	<input type="checkbox" name="paragon" value="inne"> Inny dowód płatności <br></input><br>
+	<input type="checkbox" name="paragon" value="faktura"> Faktura &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+	<input type="checkbox" name="paragon" value="paragon"> Paragon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+	<input type="checkbox" name="paragon" value="inne"> Inny dowód płatności <br><br>
 	<font face=Arial size=3><b>Rodzaj klienta: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Forma płatności: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Czy jesteś zadowolony z towaru: </b><br></font>
 	<SELECT NAME=rodzaj_klienta>
 	<option selected disabled>wybierz element: </option>
